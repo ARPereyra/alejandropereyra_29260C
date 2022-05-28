@@ -7,8 +7,14 @@
 --secondary:;
 --text-color:;
 --base:;
+
 /*Spacing*/
+--spacing-medium: 2.4 rem;
+--spacing-small: 2rem;
+--xpacing-xsmall:1rem;
+
 /* Font- family */
+
 --font-principal:'Roboto', sans-serif;
 --font-title:'Outfit', sans-serif;
 
@@ -18,7 +24,7 @@
 --text-base:1.8em;
 --text-small:1.4em;
 }
-/**/
+/*Normalize*/
 
 
 *{
@@ -28,30 +34,46 @@
 
 }
 
-/*Vista Movile*/
+/*Vista Movile
 
 @media only screen and (min-width:0px)and (max-width:767px){
     .gridCointaner{
         display: grid;
     }
-}
+}*/
 
 
 html{
     font-size: 62.5%;
     font-family: var(--font-principal);
-}
+ 
+  }
+   
 body{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: var(--spacing-medium);
+   
+    
+
+   
+
+    
 }
 
 main{
-    padding: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: var(--spacing-medium);
+ 
+  
 }
 header{
     display: flex;
-    flex-direction: row;
+    
+   
     justify-content: space-between;
     align-items: center;
     background-color: aqua;
@@ -74,6 +96,9 @@ header{
 
         
 .logo__opc{
+    
+    display: flex;
+  
 
 }
 
@@ -89,7 +114,7 @@ header{
 
 nav{
   
-  
+    
     background-color: aqua;
     
     width: 50%;
@@ -130,4 +155,16 @@ footer{
 }
 .foo__p{
     align-items: center;
+}
+
+.grid_ofer{
+ 
+    display: grid;
+    
+    justify-content: center;
+
+ grid-template-rows: 2fr 2fr2fr 2fr; 
+   
+ grid-template-columns: 50% 50% 50% 50%;
+
 }
