@@ -34,14 +34,15 @@
 
 }
 
-/*Vista Movile
+/*Vista Movile*/
 
-@media only screen and (min-width:0px)and (max-width:767px){
-    .gridCointaner{
-        display: grid;
-    }
-}*/
 
+@media screen and (min-width: 350px) {
+    .fondo__main, .foo__p, .grid_ofer,.imag__ofer, .li__header, .logo__opc,.logo__redes, .ol, .pOfer, .ser__li, .texto1, .ul__header
+       { 
+         width:100;
+      }
+}
 
 html{
     font-size: 62.5%;
@@ -51,11 +52,15 @@ html{
    
 body{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 0 auto;
     max-width: 1200px;
     margin-top: var(--spacing-medium);
-   
+    min-height: height 100vh;
+    display: grid;
+    grid-template-rows:auto 1fr auto; 
+
     
 
    
@@ -76,6 +81,7 @@ header{
    
     justify-content: space-between;
     align-items: center;
+    min-width: 340px;
     background-color: aqua;
    
 }
@@ -94,12 +100,25 @@ header{
 
 }
 
+.ol ser{
+
+}
+  
+.ser__li{
+    display: flex;
+    list-style-type: none;
+}
         
 .logo__opc{
     
     display: flex;
-  
+    margin: 1em;
+    display: inline-block;
+    margin: 0 0.5rem;
 
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s
+    
 }
 
 .logo__redes{
@@ -157,14 +176,40 @@ footer{
     align-items: center;
 }
 
-.grid_ofer{
- 
-    display: grid;
-    
-    justify-content: center;
-
- grid-template-rows: 2fr 2fr2fr 2fr; 
+.grid_ofer{ 
    
- grid-template-columns: 50% 50% 50% 50%;
+    display: grid;
+    grid-template-rows: 40vh 40vh 40vh 40vh;
+    grid-template-columns: 30vw 30vw;
+    grid: column gap 20px; 
+    grid:row gap 20px;
 
 }
+
+.imag__ofer{
+    height: 100px;
+}
+
+
+.pOfer{
+     display: flex;
+     text-align: right;
+     margin-top: 10%;
+}        
+
+/*.im__rep{
+    
+        width: 100px;
+        height: 100px;
+      
+        
+      transition: width 2s;
+      }
+      
+     :hover {
+        width: 300px;
+              
+
+}*/
+
+
