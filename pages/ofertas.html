@@ -5,33 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+     crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
-         <header> 
-      
 
-        <div>
-          <img class="logo__opc"  src="../imagenes/Iconos/logoolivospc.svg">
-       </div>
-
-            <nav>
-                <ul class="ul__header">
-                    <li><a class= "li__header" href="../index.html">Inicio</a></li>
-                    <li><a class= "li__header"  href="./Servicios.html">Servicios</a></li>
-                    <li><a class= "li__header" href="./reparaciones.html">Reparaciones</a></li>
-                    <li><a class= "li__header" href="./ofertas.html">Ofertas</a></li>
-                    <li><a class= "li__header" href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+<body class="container">
+  <div class="row"> 
    
-        </header>
+  <!-- HEADER DE LA PAGINA-->
+  <header > 
+    
+     
+           <img class="logo__opc"  src="./imagenes/Iconos/logoolivospc.svg">
+
+
+           <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"  >Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./reparaciones.html">Reparaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </nav>
+   
+
+    
+  </div>
+
+ 
+  </header>
 
  <h1>Ofertas</h1>
 
-<section> 
+<section > 
   <table>
     <tr>
      <td>Producto</td>
@@ -48,32 +73,40 @@
 </section>
 
  
-  <section class="grid_ofer">
-    
+  <main class="container"   class= "d-flex justify-content-center"  >
+         <div class="row">
+           <div class=" col-12 col-sm-2 col-md-4 border">  
 
-          <div class="ofer1" >
+                  <div class="ofer1" >
             
-             <img  class= "imag__ofer" src="../imagenes/Ofertas/m2240gb 1ssd.jpg"> 
-            
-              <p class="pOfer">
-            
-                      Caracteristicas:
+            <img  class= "imag__ofer" src="../imagenes/Ofertas/m2240gb 1ssd.jpg"> 
+           
+             <p class="pOfer">
+           
+                     Caracteristicas:
 
-                      Útil para guardar programas y documentos con su capacidad de 240 GB.
-                      Más espacio en tu PC con su factor de forma M.2 2280.
-                      Es compatible con Windows.
-                      Interfaz de conexión: SATA III.
-                      Apto para PC y Notebook.
+                     Útil para guardar programas y documentos con su capacidad de 240 GB.
+                     Más espacio en tu PC con su factor de forma M.2 2280.
+                     Es compatible con Windows.
+                     Interfaz de conexión: SATA III.
+                     Apto para PC y Notebook.
 
-                      $5999
+                     $5999
 
-              </p>
-          
-          </div>
+             </p>
+         
+         </div>
+        </div>
+         </div>
 
-          <div class="ofer2">
+                  
 
-            <img  class= "imag__ofer" src="../imagenes/Ofertas/lenovo 1notebooks.jpg">
+         <div class="col-12 col-sm-2 col-md-4 border">     
+             <div class="row">
+      
+              <div class="ofer2">
+
+               <img  class= "imag__ofer" src="../imagenes/Ofertas/lenovo 1notebooks.jpg">
             
                 <p class="pOfer">
 
@@ -86,7 +119,13 @@
 
                 </p>
             
-          </div>
+              </div>
+           </div>
+          </div>  
+        
+         <div class="col-12 col-sm-2 col-md-4 border"> 
+            <div class="row">
+
           <div class="ofer3">
              <img   class= "imag__ofer" src="../imagenes/Ofertas/ddr4 1ssd.jpg">  
 
@@ -103,67 +142,87 @@
                 </p>
 
           </div>
-          <div class="ofer4"> 
+
+         </div>
+
+         <div class="col-12 col-sm-2 col-md-4 border"> 
+             <div class="row">
+                 <div class="ofer4"> 
              
-              <img  class= "imag__ofer"  src="../imagenes/Ofertas/Notebook-Max-L5-i5-Windows-11 1notebooks.jpg">
+                     <img  class= "imag__ofer"  src="../imagenes/Ofertas/Notebook-Max-L5-i5-Windows-11 1notebooks.jpg">
             
-              <p class="pOfer">
+                        <p class="pOfer">
 
-                  Caracteristicas
+                                       Caracteristicas
 
-                  Notebook Banghó Max L5 i5 con Microsoft 365 Personal, la mejor relación entre productividad
-                   y presupuesto gracias al Procesador Intel Core i5 de 10ma generación y 8GB de RAM.
-                  Podrás trabajar en tu casa, estudio u oficina con una notebook de máxima potencia.
+                              Notebook Banghó Max L5 i5 con Microsoft 365 Personal, la mejor relación entre productividad
+                               y presupuesto gracias al Procesador Intel Core i5 de 10ma generación y 8GB de RAM.
+                              Podrás trabajar en tu casa, estudio u oficina con una notebook de máxima potencia.
             
                               $164999
 
-              </p>
+                         </p>
 
+                 </div>
               </div>
+            </div>
 
-            <div class="ofer5">   
-              <img  class= "imag__ofer" src="../imagenes/Ofertas/kingstonessd 1ssd.jpg">
+        <div class="col-12 col-sm-2 col-md-4 border"> 
+             <div class="row">
+
+                <div class="ofer5">   
+                    <img  class= "imag__ofer" src="../imagenes/Ofertas/kingstonessd 1ssd.jpg">
             
-             <p class="pOfer">
+                          <p class="pOfer">
                         
-                    Características:
+                                Características:
             
-                         Factor de forma: 2.5"
-                         Interfaz:
-                         SATA Rev. 3.0 (6Gb/seg) con compatibilidad inversa para SATA Rev. 2.0 (3Gb/seg)
-                         Capacidad 240GB
-                         Controlador: Marvell 88SS1074
+                                     Factor de forma: 2.5"
+                                     Interfaz:
+                                     SATA Rev. 3.0 (6Gb/seg) con compatibilidad inversa para SATA Rev. 2.0 (3Gb/seg)
+                                     Capacidad 240GB
+                                     Controlador: Marvell 88SS1074
              
-                         $6800
+                                     $6800
 
-              </p>
+                           </p>
                                         
-          </div>         
-          <div class="ofer6">  
+                 </div>
 
-            <img  class= "imag__ofer"  src="../imagenes/Ofertas/note-asus 1notebooks.jpg">
+             </div>
+            </div>
+        
+        
+       <div class="col-12 col-sm-2 col-md-4 border"> 
+              <div class="row">
+
+                    <div class="ofer6">  
+
+                         <img  class= "imag__ofer"  src="../imagenes/Ofertas/note-asus 1notebooks.jpg">
              
-                <p class="pOfer">
+                                <p class="pOfer">
 
-                    Caracteristicas
+                                      Caracteristicas
 
-                        Notebook ASUS X515EA Intel I5 1135 G7 |
-                        RAM 8GB | SSD 256Gb | 15.6 FHD |
-                        X515EA-EJ710/EJ343
+                                          Notebook ASUS X515EA Intel I5 1135 G7 |
+                                          RAM 8GB | SSD 256Gb | 15.6 FHD |
+                                          X515EA-EJ710/EJ343
 
 
 
-                            $ 105999
+                                              $ 105999
                         
-                </p>
+                                </p>
                         
                         
-          </div>
+                     </div>
+                </div>
+            </div>
+          </main>
 
-  </section>
 
 
-
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
  
    <footer>    
 

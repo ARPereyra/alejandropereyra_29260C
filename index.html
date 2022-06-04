@@ -4,62 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css"> 
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+     crossorigin="anonymous">
 
     
 <title>OLIVOS PC</title>
     
 </head>
 
-<body class="body">
+<body class="container">
+  <div class="row"> 
    
   <!-- HEADER DE LA PAGINA-->
-  <header> 
+  <header > 
     
      
            <img class="logo__opc"  src="./imagenes/Iconos/logoolivospc.svg">
+
+
+           <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"  >Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/Servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/reparaciones.html">Reparaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </nav>
    
 
-    <nav>
-      <ul class="ul__header">
-        <li><a class= "li__header" href="./index.html">Inicio</a></li>
-        <li><a class= "li__header"  href="./pages/Servicios.html">Servicios</a></li>
-        <li><a class= "li__header" href="./pages/reparaciones.html">Reparaciones</a></li>
-        <li><a class= "li__header" href="./pages/ofertas.html">Ofertas</a></li>
-        <li><a class= "li__header" href="./pages/contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-   
+    
+  </div>
+
  
   </header>
+</div>
 
    <!-- Main-->
 
 <main> 
   
-
-
-    <div>
-        <img class= "fondo__main" src="./imagenes/fondo_main.jpg">
-
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../Imagenes/BIOS-CHIP-930x487.jpg" class="d-block w-100" alt="10px">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/GPU-Sobrecalienta-Portada-930x480.jpg" class="d-block w-100" alt="10px">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/istockphoto-163524134-612x612.jpg" class="d-block w-80" alt="4px">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/Liquido-portatil-930x487.jpg" class="d-block w-100" alt="10px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
         
       
 
         <section>
-          <div class="container">
-          <div class="row">
-            <div class="col">
+          <div class="container" >
+              <div class="row justify-content-md-center">
+                  <div class="col col-lg-6">
+
+                  </div>
              
             </div>
 
-            <img  class="im__rep" src="./imagenes/reparandonotebook.jpg">
-            <div class="col">
+            <img  class="img-fluid" src="./imagenes/reparandonotebook.jpg" >
+            <div class="col"6>
             
             </div>
           </div>
-                    <p class= "texto1">
+          <p class="text-start">
                             Estamos comprometidos con el desarrollo tecnológico a nivel empresarial y particular. 
                             Nuestro compromiso es lograr que el parque informático de tu organización funcione de forma óptima, 
                             cumpliendo con los últimos estándares del mercado.
@@ -94,7 +139,7 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+ 
 </body>
 
 </html>

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 
 :root{
     /*Colors*/
@@ -23,7 +22,7 @@
 --text-medium:4.5em;
 --text-base:1.8em;
 --text-small:1.4em;
-}
+}*/
 /*Normalize*/
 
 
@@ -38,34 +37,22 @@
     box-sizing: content-box;
   }
 
-/*Vista Movile*/
-
-
-@media screen and (min-width: 350px) {
-    .fondo__main, .foo__p, .grid_ofer,.imag__ofer, .li__header, .logo__opc,.logo__redes, .ol, .pOfer, .ser__li, .texto1, .ul__header
-       { 
-         width:100;
-      }
-}
-
 html{
     font-size: 62.5%;
     font-family: var(--font-principal);
  
   }
-   
+  
 body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 0 auto;
     max-width: 1200px;
-    margin-top: var(--spacing-medium);
+    margin-top: 
     min-height: height 100vh;
-    display: grid;
-    grid-template-rows:auto 1fr auto; 
 
-    
+
 
    
 
@@ -81,8 +68,6 @@ main{
 }
 header{
     display: flex;
-    
-   
     justify-content: space-between;
     align-items: center;
     min-width: 340px;
@@ -147,12 +132,6 @@ nav{
 
 
 
-section{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-
 
 .fondo__main{
     display: flex;
@@ -180,7 +159,7 @@ footer{
     align-items: center;
 }
 
-.grid_ofer{ 
+/*.grid_ofer{ 
    
     display: grid;
     grid-template-rows: 40vh 40vh 40vh 40vh;
@@ -188,18 +167,19 @@ footer{
     grid: column gap 20px; 
     grid:row gap 20px;
 
+  
+section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+  
+
 }
 
-.imag__ofer{
-    height: 100px;
-}
+*/
 
 
-.pOfer{
-     display: flex;
-     text-align: right;
-     margin-top: 10%;
-}        
 
 /*.im__rep{
     
@@ -214,6 +194,14 @@ footer{
         width: 300px;
               
 
+        .imag__ofer{
+    height: 100px;
+}
+
+
+.pOfer{
+     display: flex;
+     text-align: right;
+     margin-top: 10%;
+}        
 }*/
-
-
