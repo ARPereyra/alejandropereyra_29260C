@@ -3,10 +3,10 @@
 
 :root{
     /*Colors*/
---primary:;
---secondary:;
---text-color:;
---base:;
+--primary:aqua;
+--secondary:blue;
+--text-color:black;
+--base:white;
 
 /*Spacing*/
 --spacing-medium: 2.4 rem;
@@ -37,12 +37,12 @@
 /*Vista Movile*/
 
 
-@media screen and (min-width: 350px) {
+/*@media screen and (min-width: 350px) {
     .fondo__main, .foo__p, .grid_ofer,.imag__ofer, .li__header, .logo__opc,.logo__redes, .ol, .pOfer, .ser__li, .texto1, .ul__header
        { 
          width:100;
       }
-}
+}*/
 
 html{
     font-size: 62.5%;
@@ -67,17 +67,9 @@ body{
 
     
 }
-
-main{
-    margin: 0 auto;
-    max-width: 1200px;
-    margin-top: var(--spacing-medium);
- 
-  
-}
 header{
     display: flex;
-    
+   
    
     justify-content: space-between;
     align-items: center;
@@ -85,7 +77,6 @@ header{
     background-color: aqua;
    
 }
-
 .ul__header{
     display: flex;
     list-style-type: none;
@@ -101,13 +92,27 @@ header{
 }
 
 .ol ser{
-
+ list-style-type: none;
 }
   
 .ser__li{
     display: flex;
     list-style-type: none;
 }
+.navTex{
+    text-emphasis-color: rgb(226, 8, 8);
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: var(--spacing-medium);
+ 
+  
+}
+
+
+
         
 .logo__opc{
     
@@ -121,6 +126,8 @@ header{
     
 }
 
+
+/*footer*/
 .logo__redes{
     display: flex;
     list-style-type: none;
@@ -132,10 +139,8 @@ header{
 
 
 nav{
-  
-    
-    background-color: aqua;
-    
+  display: flex;
+      
     width: 50%;
 
 }
@@ -143,8 +148,10 @@ nav{
 
 
 
-section{
+.descripIndex{
     display: flex;
+    flex-direction: row;
+
     width: 100%;
     align-items: center;
 }
@@ -156,13 +163,20 @@ section{
 
 
 }
+.img__rep{
+
+  margin-top: 1pc;
+}
 
 .texto1{
    width: 100%;
-    justify-items: end;
-   
+    align-items: center;
+    margin: 15px;
+    grid-area: var(--spacing-small);
     font-family: var(--font-title);
     font-size: var(--text-base);
+
+      
 
 
 }
@@ -176,18 +190,21 @@ footer{
     align-items: center;
 }
 
-.grid_ofer{ 
+/* .grid_ofer{ 
    
     display: grid;
-    grid-template-rows: 40vh 40vh 40vh 40vh;
+    /*grid-template-rows: 40vh 40vh 40vh 40vh;
     grid-template-columns: 30vw 30vw;
     grid: column gap 20px; 
     grid:row gap 20px;
 
 }
-
+*/
 .imag__ofer{
-    height: 100px;
+    display: flex;    
+    align-items: center;
+    margin-top: 10%;
+    width: 35%;
 }
 
 
@@ -195,6 +212,13 @@ footer{
      display: flex;
      text-align: right;
      margin-top: 10%;
+     justify-self: end;
+    /* hyphens: auto;*/
+     margin: 0 auto;
+     width: 90%;
+     text-align: justify;
+     /*font-family:verdana;*/
+     border: #ff0037;
 }        
 
 /*.im__rep{

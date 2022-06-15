@@ -1,0 +1,39 @@
+
+
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: var(--spacing-medium);
+   
+}
+
+.fondo__main{
+    display: flex;
+    width: 100%;
+
+
+}
+.descripIndex{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+  
+    .img__rep{
+        box-sizing:border-box;
+   
+        margin-top: 1pc;
+      }
+    .texto1{
+       width: 100%;
+       padding: 10rem;
+   
+       font-size: $text-large;
+       
+
+      
+      
+ 
+    }
+}

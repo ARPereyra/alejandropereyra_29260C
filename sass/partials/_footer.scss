@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    .logo__redes{
+        display: flex;
+        list-style-type: none;
+        justify-content: end;
+        align-items: center;
+        height: 30px;
+    }
+    
+}
+
+footer{
+    display: flex;
+    background-color: aqua;
+    
+}
+.foo__p{
+    align-items: center;
+}

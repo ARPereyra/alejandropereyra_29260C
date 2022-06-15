@@ -1,0 +1,21 @@
+header{
+    display: flex;
+   
+   
+    justify-content: space-between;
+    align-items: center;
+    min-width: 340px;
+    background-color: aqua;
+
+    .logo__opc{
+    
+        display: flex;
+        margin: 1em;
+        display: inline-block;
+        margin: 0 0.5rem;
+    
+       
+        
+    }
+   
+}

@@ -4,27 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Document</title>
 </head>
-<body>
-         <header> 
+<body class= "container">
+    <div class="row">
+      <header> 
       
 
         <div>
           <img class="logo__opc"  src="../imagenes/Iconos/logoolivospc.svg">
        </div>
 
-            <nav>
-                <ul class="ul__header">
-                    <li><a class= "li__header" href="../index.html">Inicio</a></li>
-                    <li><a class= "li__header"  href="./Servicios.html">Servicios</a></li>
-                    <li><a class= "li__header" href="./reparaciones.html">Reparaciones</a></li>
-                    <li><a class= "li__header" href="./ofertas.html">Ofertas</a></li>
-                    <li><a class= "li__header" href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+       <nav class="navbar navbar-expand-lg" style="background-color: acuamarin;">
+        <div class="container-fluid">
+          <a class="navbar-brand" class="navTex" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" class="navTex" aria-current="page" href="../pages/Servicios.html">Servicios</a>
+              <a class="nav-link" href="../pages/reparaciones.html">Reparaciones</a>
+              <a class="nav-link" href="../pages/ofertas.html">Ofertas</a>
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+
+    </div>
+     
    
         </header>
 
@@ -47,34 +59,40 @@
 </section>
 
  
-  <section class="grid_ofer">
+  <section  class="container" >
+      <div class="row">
+
+            
+          <div class="ofer1"   >
+            
+            <img  class= "imag__ofer col-sm-12 col-md-6 col-lg-6" src="../imagenes/Ofertas/m2240gb 1ssd.jpg"> 
+           
+             <p class="pOfer col-sm-12 col-md-6 col-lg-6">
+           
+                     Caracteristicas:
+
+                     Útil para guardar programas y documentos con su capacidad de 240 GB.
+                     Más espacio en tu PC con su factor de forma M.2 2280.
+                     Es compatible con Windows.
+                     Interfaz de conexión: SATA III.
+                     Apto para PC y Notebook.
+
+                     $5999
+
+             </p>
+         
+
+
+       </div>
     
 
-          <div class="ofer1" >
-            
-             <img  class= "imag__ofer" src="../imagenes/Ofertas/m2240gb 1ssd.jpg"> 
-            
-              <p class="pOfer">
-            
-                      Caracteristicas:
-
-                      Útil para guardar programas y documentos con su capacidad de 240 GB.
-                      Más espacio en tu PC con su factor de forma M.2 2280.
-                      Es compatible con Windows.
-                      Interfaz de conexión: SATA III.
-                      Apto para PC y Notebook.
-
-                      $5999
-
-              </p>
-          
           </div>
 
           <div class="ofer2">
 
-            <img  class= "imag__ofer" src="../imagenes/Ofertas/lenovo 1notebooks.jpg">
+            <img  class= "imag__ofer col-sm-12 col-md-6 col-lg-6" src="../imagenes/Ofertas/lenovo 1notebooks.jpg">
             
-                <p class="pOfer">
+                <p class="pOfer col-sm-12 col-md-6 col-lg-6">
 
                       Caracteristicas
 
@@ -87,9 +105,9 @@
             
           </div>
           <div class="ofer3">
-             <img   class= "imag__ofer" src="../imagenes/Ofertas/ddr4 1ssd.jpg">  
+             <img   class= "imag__ofer col-sm-12 col-md-6 col-lg-6" src="../imagenes/Ofertas/ddr4 1ssd.jpg">  
 
-                 <p class="pOfer">
+                 <p class="pOfer col-sm-12 col-md-6 col-lg-6">
 
                       Características:
                       Kingston FURY Renegade DDR4 RGB Memoria
@@ -102,11 +120,11 @@
                 </p>
 
           </div>
-          <div class="ofer4"> 
+          <div class="ofer4 "> 
              
-              <img  class= "imag__ofer"  src="../imagenes/Ofertas/Notebook-Max-L5-i5-Windows-11 1notebooks.jpg">
+              <img  class= "imag__ofer col-sm-12 col-md-6 col-lg-6"  src="../imagenes/Ofertas/Notebook-Max-L5-i5-Windows-11 1notebooks.jpg">
             
-              <p class="pOfer">
+              <p class="pOfer col-sm-12 col-md-6 col-lg-6">
 
                   Caracteristicas
 
@@ -121,9 +139,9 @@
               </div>
 
             <div class="ofer5">   
-              <img  class= "imag__ofer" src="../imagenes/Ofertas/kingstonessd 1ssd.jpg">
+              <img  class= "imag__ofer col-sm-12 col-md-6 col-lg-6" src="../imagenes/Ofertas/kingstonessd 1ssd.jpg">
             
-             <p class="pOfer">
+             <p class="pOfer col-sm-12 col-md-6 col-lg-6">
                         
                     Características:
             
@@ -140,9 +158,9 @@
           </div>         
           <div class="ofer6">  
 
-            <img  class= "imag__ofer"  src="../imagenes/Ofertas/note-asus 1notebooks.jpg">
+            <img  class= "imag__ofer col-sm-12 col-md-6 col-lg-6"  src="../imagenes/Ofertas/note-asus 1notebooks.jpg">
              
-                <p class="pOfer">
+                <p class="pOfer col-sm-12 col-md-6 col-lg-6">
 
                     Caracteristicas
 
@@ -158,10 +176,12 @@
                         
                         
           </div>
+        </div>
 
   </section>
 
-
+  
+  
 
  
    <footer>    
@@ -180,6 +200,7 @@
 
 </footer>
   
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 </html>

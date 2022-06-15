@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+/*Colors*/
+/*Spacing*/
+/* Font- family */
+/* Font- sizes */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.logo__opc {
+  animation: bounce;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 340px;
+  background-color: aqua; }
+  header .logo__opc {
+    display: flex;
+    margin: 1em;
+    display: inline-block;
+    margin: 0 0.5rem; }
+
+footer {
+  display: flex;
+  background-color: aqua;
+  align-items: center; }
+  footer .logo__redes {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    align-items: center;
+    height: 30px; }
+
+footer {
+  display: flex;
+  background-color: aqua; }
+
+.foo__p {
+  align-items: center; }
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-principal); }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: var(--spacing-medium);
+  min-height: height 100vh;
+  display: grid; }
+  body .carousel_h5 {
+    font-size: 5.2em;
+    color: #52f308; }
+  body main {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: var(2.4 rem); }
+  body .fondo__main {
+    display: flex;
+    width: 100%; }
+  body .descripIndex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center; }
+    body .descripIndex .img__rep {
+      box-sizing: border-box;
+      flex-direction: column;
+      margin-top: 1rem; }
+    body .descripIndex .texto1 {
+      flex-direction: row;
+      width: 100%;
+      padding: 2rem;
+      font-size: 1.4em; }
