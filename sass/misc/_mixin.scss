@@ -1,0 +1,13 @@
+@mixin _footer {
+    
+    display: flex;
+    background-image: linear-gradient(225deg, #ab77fd 0, #825dea 25%, #4d42d4 50%, #002abf 75%, #001aac 100%);
+    align-items: center;
+    .logo__redes{
+        display: flex;
+        list-style-type: none;
+        justify-content: end;
+        align-items: center;
+        height: 30px;
+    }
+}
