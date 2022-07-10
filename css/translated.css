@@ -411,7 +411,8 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 150px;
   padding: 20px;
-  grid-gap: 10px; }
+  grid-gap: 10px;
+  z-index: -10; }
 
 .gallery__item {
   position: relative; }
@@ -420,72 +421,65 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover; }
-
-.gallery__title {
-  position: absolute;
-  bottom: 0;
-  color: white;
-  background: linear-gradient(rgba(255, 255, 255, 0), black);
-  width: 100%;
-  margin: 0%;
-  padding: 10px; }
-
-.gallery__item:nth-child(4) {
-  grid-column-start: span 2; }
-
-.gallery__item:nth-child(5) {
-  grid-column-start: span 2; }
-
-.gallery__item:nth-child(9) {
-  grid-column-start: span 2; }
-
-@media (min-width: 0px) {
-  .gallery-container {
-    grid-template-columns: repeat(1, 1fr); }
-  .gallery__item:nth-child(1) {
+  .gallery__img .gallery__title {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0), black);
+    width: 100%;
+    margin: 0%;
+    padding: 10px; }
+  .gallery__img .gallery__item:nth-child(4) {
     grid-column-start: span 2; }
-  .gallery__item:nth-child(2) {
+  .gallery__img .gallery__item:nth-child(5) {
     grid-column-start: span 2; }
-  .gallery__item:nth-child(3) {
+  .gallery__img .gallery__item:nth-child(9) {
     grid-column-start: span 2; }
-  .gallery__item:nth-child(4) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(5) {
-    grid-column-start: span 1; }
-  .gallery__item:nth-child(9) {
-    grid-column-start: span 2; } }
-
-@media (min-width: 575.98px) {
-  .gallery-container {
-    grid-template-columns: repeat(2, 1fr); }
-  .gallery__item:nth-child(1) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(2) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(3) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(4) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(5) {
-    grid-column-start: span 1; }
-  .gallery__item:nth-child(9) {
-    grid-column-start: span 2; } }
-
-@media (min-width: 767.98px) {
-  .gallery-container {
-    grid-template-columns: repeat(4, 1fr); }
-  .gallery__item:nth-child(1) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(2) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(3) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(4) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(5) {
-    grid-column-start: span 3; }
-  .gallery__item:nth-child(9) {
-    grid-column-start: span 2; } }
+  @media (min-width: 0px) {
+    .gallery__img .gallery-container {
+      grid-template-columns: repeat(1, 1fr); }
+    .gallery__img .gallery__item:nth-child(1) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(2) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(3) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(4) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(5) {
+      grid-column-start: span 1; }
+    .gallery__img .gallery__item:nth-child(9) {
+      grid-column-start: span 2; } }
+  @media (min-width: 575.98px) {
+    .gallery__img .gallery-container {
+      grid-template-columns: repeat(2, 1fr); }
+    .gallery__img .gallery__item:nth-child(1) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(2) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(3) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(4) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(5) {
+      grid-column-start: span 1; }
+    .gallery__img .gallery__item:nth-child(9) {
+      grid-column-start: span 2; } }
+  @media (min-width: 767.98px) {
+    .gallery__img .gallery-container {
+      grid-template-columns: repeat(4, 1fr); }
+    .gallery__img .gallery__item:nth-child(1) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(2) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(3) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(4) {
+      grid-column-start: span 2; }
+    .gallery__img .gallery__item:nth-child(5) {
+      grid-column-start: span 3; }
+    .gallery__img .gallery__item:nth-child(9) {
+      grid-column-start: span 2; } }
 
 html {
   font-size: 62.5%;
