@@ -41,13 +41,39 @@ display: grid;
 align-items: center;
 flex-wrap: wrap;
 
+padding-right: 50%;
+
 margin: 0 auto;
 padding: $xpacing-xsmall;
 max-width: 1200px;
 justify-content: center;
 margin-top: var($spacing-medium);
+/*
+.imgInicio{
+  display: flex;
+  max-width: 1200px;
+  gap: $xpacing-xsmall;
+  margin-top:$xpacing-xsmall;
+  flex-direction: row;
+  object-fit: cover;
 
 }
+
+.imgInicio__1-2{
+  display: flex;
+  flex-direction: row;
+} 
+
+
+ 
+*/
+.carousel{
+  z-index: -10;
+}
+  
+}
+
+
 
 .fondo__main{
 display: flex;
