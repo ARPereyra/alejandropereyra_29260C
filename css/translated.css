@@ -231,19 +231,7 @@ body {
     font-size: $text-large;
    color:rgb(82, 243, 8);
  
-  }*/
-  /*.descripIndex{
-display: flex;
-flex-direction:column;
-
-width: 100%;
-align-items: center;
-
-.flex-cointainer{
-display: flex;
-flex-wrap: wrap;
-
-}*/ }
+  }*/ }
   body main {
     width: 100%;
     display: grid;
@@ -254,26 +242,7 @@ flex-wrap: wrap;
     padding: 1rem;
     max-width: 1200px;
     justify-content: center;
-    margin-top: var(2.4rem);
-    /*
-.imgInicio{
-  display: flex;
-  max-width: 1200px;
-  gap: $xpacing-xsmall;
-  margin-top:$xpacing-xsmall;
-  flex-direction: row;
-  object-fit: cover;
-
-}
-
-.imgInicio__1-2{
-  display: flex;
-  flex-direction: row;
-} 
-
-
- 
-*/ }
+    margin-top: var(2.4rem); }
     body main .carousel {
       z-index: -10; }
   body .fondo__main {
@@ -297,29 +266,8 @@ header {
   gap: 1rem;
   justify-content: space-between;
   align-items: center;
-  /*background: linear-gradient(70deg, black,rgba(0, 0, 0, 0.541), grey);*/
   background-image: linear-gradient(225deg, #ab77fd 0, #825dea 25%, #4d42d4 50%, #002abf 75%, #001aac 100%);
   height: 15rem;
-  /*
-  .navbar-brand{
-      color: $base;
-      font-size: $text-titles;
-      
-  }
-  #navbar-toggler-icon{
-      color:$base;
-  }
-  .nav-link{
-      color: $base;
-      font-size: $text-titles;
-      padding:$xpacing-xsmall;
-  }
-  .Servicios{
-      color:$base;
-      font-size: $text-titles;
-      padding:$xpacing-xsmall;
-  }
-*/
   /*Google Fonts*/
   /*Css Reset*/
   /*Navigation*/
@@ -364,7 +312,7 @@ header .nav-menu {
   header
 header .nav-menu li {
     display: none;
-    line-height: 100px;
+    line-height: 10px;
     margin: 50px 0;
     transition: all .5s; }
   header
